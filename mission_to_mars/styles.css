@@ -1,0 +1,213 @@
+body {
+  font-family: Arial;
+}
+
+nav {
+  background-color: black;
+  text-transform: uppercase;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: #f9b939;
+  text-decoration: none;
+}
+
+#nav_flex {
+  /* Intentially left blank */
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#title {
+  margin-left: 20px;
+}
+
+h1, h2 {
+  font-size: 26px;
+  color: #f9b939;
+}
+@media only screen and (max-width: 400px) {
+  h1, h2 {
+    font-size: 16px;
+  }
+  h3, h4, h5, h6, p, a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 799px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+h1:hover, h2:hover {
+  animation-name: title;
+  animation-duration: 5s;
+}
+@keyframes title {
+  100% {
+    color: red;
+  }
+}
+
+div#mars {
+  display: absolute;
+  width: 100%;
+}
+
+.mars_pic {
+  width: 100%;
+}
+
+div.strip {
+  display: absolute;
+  width: 100%;
+  min-height: 500px;
+  background-color: black;
+  background: repeating-linear-gradient(
+    45deg,
+    #6d6d6d 0px,
+    #6d6d6d 15px,
+    #424242 15px,
+    #424242 30px
+  );
+}
+
+#about_title {
+  display: absolute;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 10px 15px black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.5;
+  min-height: 200px;
+  min-width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 3px solid white;
+  font-weight: 500;
+  color: #f9b939;
+}
+
+.content_heading {
+  margin: 15px;
+  font-weight: 700;
+}
+
+.content_para {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.fade_in1 {
+  animation-name: fade_in1;
+  animation-duration: 10s;
+}
+@keyframes fade_in1 {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #f9b939;
+  }
+}
+.fade_in2 {
+  animation-name: fade_in2;
+  animation-duration: 3.5s;
+}
+@keyframes fade_in2 {
+  0% {
+    color: black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+.fade_in3 {
+  animation-name: fade_in3;
+  animation-duration: 4s;
+}
+@keyframes fade_in3 {
+  0% {
+    color: black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+.fade_in4 {
+  animation-name: fade_in4;
+  animation-duration: 4.5s;
+}
+@keyframes fade_in4 {
+  0% {
+    color: black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+.fade_in5 {
+  animation-name: fade_in5;
+  animation-duration: 5s;
+}
+@keyframes fade_in5 {
+  0% {
+    color: black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+.fade_in6 {
+  animation-name: fade_in6;
+  animation-duration: 5.5s;
+}
+@keyframes fade_in6 {
+  0% {
+    color: black;
+  }
+  90% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
