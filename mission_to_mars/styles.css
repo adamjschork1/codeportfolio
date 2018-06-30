@@ -104,6 +104,7 @@ div.strip {
   border: 3px solid white;
   font-weight: 500;
   color: #f9b939;
+  box-shadow: 5px 10px 15px black;
 }
 
 .content_heading {
@@ -210,4 +211,8 @@ p {
   100% {
     color: red;
   }
+}
+
+#space {
+  width: 100%;
 }
